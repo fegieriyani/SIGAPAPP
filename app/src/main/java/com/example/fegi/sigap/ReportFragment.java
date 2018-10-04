@@ -12,15 +12,15 @@ import android.view.ViewGroup;
 
 public class ReportFragment extends Fragment {
 
-    public static ReportFragment newInstance() {
+public static ReportFragment newInstance() {
 
         return new ReportFragment();
 
-    }
+        }
 
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_report, container, false);
-    }
-}
+@Nullable
+@Override
+public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_lapor, container, false);
+        }
+        }
